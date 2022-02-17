@@ -37,6 +37,7 @@ function addItem(e){
     li.appendChild(rightBtns);
     itemList.appendChild(li);
 
+    form.reset();
 }
 
 function removeItem(e){
