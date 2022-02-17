@@ -43,6 +43,7 @@ body{
 }
 .strikethrough{
     text-decoration: line-through;
+    transition: all 0.30s ease-in-out;
 }
 li{
     list-style: none;
@@ -52,6 +53,7 @@ li{
 }
 li:hover, #form:hover{
     transform: scale(1.01);
+    transition: all 0.1s ease-in-out;
 }
 .float-right{
     display: flex;
@@ -70,8 +72,3 @@ li:hover, #form:hover{
     border: solid 1px black;
     width: max-content;
 }
-@media (max-width: 768px) {
-    #form{
-      width: 50vw;
-    }
-  }
